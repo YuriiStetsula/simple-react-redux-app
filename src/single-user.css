@@ -1,0 +1,55 @@
+.single-user{
+    height:60px;
+    border-bottom: 1px solid rgba(220, 220, 220, .5);
+ 
+}
+
+.single-user:last-of-type > .delete{
+    border-radius: 0 0 4px 0
+} 
+
+.single-user:last-of-type{
+    border-bottom: none;
+
+}
+
+
+.single-user_info{
+    padding: 20px 0 15px 7px;
+    font-size: 20px;
+    display: inline-block;
+    width:80%;
+    box-sizing: border-box;
+    vertical-align: top;
+    text-align: center; 
+    color: #2d2d2d;
+
+}
+
+.delete{
+    display: inline-block;
+    width:20%;
+    background: rgba(140, 33, 33, 0.61);
+    box-sizing: border-box;
+    vertical-align: top;
+    color:white;
+    height: 100%;
+    position: relative;
+    
+}
+
+
+
+.delete > span {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+
+}
+
+.delete:hover{
+    background: rgba(140, 33, 33, 1);
+    cursor: pointer;
+}

@@ -1,0 +1,39 @@
+.add-user{
+    height:60px;
+    box-sizing: border-box;
+}
+
+.add-user input {
+    height: 100%;
+    border-radius: 4px 0 0 0;
+    border:none;
+    font-size: 20px;
+    padding-left: 7px;
+    width:80%;
+    box-sizing: border-box;
+    text-align: center; 
+ 
+}
+
+.add-user button{
+    border:none;
+    height:100%;
+    border-radius: 0 4px 0 0;
+    width: 20%;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+    background-color:rgba(25, 109, 25, 0.65);
+    color:white;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.add-user button:focus{
+    outline:0px;
+}
+
+.add-user button:hover{
+    background-color:rgba(25, 109, 25, 1);
+}
