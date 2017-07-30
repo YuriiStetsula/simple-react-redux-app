@@ -1,3 +1,3 @@
-# simple-react-app
+# simple-react-redux-app
 
 npm run dev
